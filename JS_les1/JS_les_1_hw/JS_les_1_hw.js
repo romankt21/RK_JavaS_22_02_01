@@ -1,18 +1,18 @@
 //1. - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
 //Вивести кожну змінну за допомогою: console.log , alert, document.write
-// let a = 'hello';
-// let b = 'owu';
+//let a = 'hello';
+//let b = 'owu';
 // let c = 'com';
-// let d = 'ua';
+ //let d = 'ua';
 // let e = 1;
-// let f = 10;
-// let g = -999;
-// let h = 123;
-// let i = 3.14;
-// let j = 2.7;
-// let k = 16;
-// let l = true;
-// let m = false;
+ //let f = 10;
+ //let g = -999;
+ //let h = 123;
+ //let i = 3.14;
+ //let j = 2.7;
+ //let k = 16;
+ //let l = true;
+ //let m = false;
 //
 //
 // console.log(a);
@@ -29,8 +29,19 @@
 // console.log(l);
 // console.log(m);
 //
-// alert (a)
-//if ( b === 'owu') (alert ('owu'))
+//alert (a);
+//alert (b);
+//alert (c);
+//alert (d);
+//alert (e);
+//alert (f);
+//alert (g);
+//alert (h);
+//alert (i);
+//alert (j);
+//alert (k);
+//alert (l);
+//alert (m)
 
 
 // document.write(a + '<br>');
@@ -95,29 +106,29 @@
 
 //3.Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person. (Не об'єкт)
 
-// let firstName = 'Роман';
-// let middleName = 'Ігорович';
-// let lastName = 'Кутний'
-//
-// let person = (firstName + ' ' +  middleName  + ' ' +  lastName)
-// console.log(person);
+//let firstName = 'Роман';
+//let middleName = 'Ігорович';
+//let lastName = 'Кутний'
+//let person = (firstName + ' ' +  middleName  + ' ' +  lastName)
+ //console.log(person);
 
 
 
 
 //4. - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
-
 // Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
 
+//let firstnames = prompt("імя");
+//let midlenames = prompt('по-батькові')
+//let age = prompt('років')
+//console.log( 'Вітаю '+firstnames + ' ' + midlenames +'.' + 'Тобі' + ' '+ age + ' '+ "років");
+//console.log(`Вітаю ${firstnames}          ${midlenames}.Тобі ${age} років`);
 
-// let firstnames = prompt('имя');
-// let midlenames = prompt('по-батькові')
-// let age = prompt('років')
-// console.log( 'Вітаю '+firstnames + ' ' + midlenames +'.' + 'Тобі' + ' '+ age + ' '+ "років");
-// console.log(`Вітаю ${firstnames}          ${midlenames}.Тобі ${age} років`);
 
+//5.- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//    let a = 100; let b = '100'; let c = true;
 
-//  let a = 100; let b = '100'; let c = true;
+// let a = 100; let b = '100'; let c = true;
 // let aa = 100;
 // let bb = '100';
 // let cc = true;
@@ -140,16 +151,17 @@
 //   123 ? '123' -> true
 
 
-// console.log(5<6);
-// console.log(5>6);
-// console.log(5===6);
-// console.log(5>=6);
-// console.log(10===10);
-// console.log(10>=10);
-// console.log(10>10);
-// console.log(10!==10);
-// console.log(123==='123');
-// console.log(123=='123');
+//console.log(5<6);
+//console.log(5>6);
+//console.log(5===6);
+//console.log(5>=6);
+//console.log(10===10);
+//console.log(10>=10);
+//console.log(10>10);
+//console.log(10<10);
+//сonsole.log(10!===10));
+//console.log(123>'123');
+//console.log(123=='123');
 
 //- Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?
 //let str = "20";
@@ -159,10 +171,10 @@
 //document.write(str * "2" + "<br/>");
 //document.write(str / 2 + "<br/>");
 
-let str = "20";
-let a = 5;
-document.write(str + a + "<br/>"); // '205'
-document.write(str - a + "<br/>"); //15
-document.write(str * "2" + "<br/>");//40
-document.write(str / 2 + "<br/>"); //10
+//let str = "20";
+//let a = 5;
+//document.write(str + a + "<br/>"); // '205'
+//document.write(str - a + "<br/>"); //15
+//document.write(str * "2" + "<br/>");//40
+//document.write(str / 2 + "<br/>"); //10
 
