@@ -93,14 +93,21 @@
 
 //- Потрібно визначити Високосний рік чи ні. Високосні роки діляться націло на 4.
 
- let year = +prompt('Введіть рік');
- if(year % 4 ===0) {
-     console.log('високосний рік');
- }
- else {
-     console.log('не високоний');
-}
+ //let year = +prompt('Введіть рік');
+ //if(year % 4 ===0) {
+ //    console.log('високосний рік');
+// }
+// else {
+ //    console.log('не високоний');
+//}
 
  //- Використовуючи конструкцію if..else, напишіть код, який запитуватиме: „Яка «офіційна» назва JavaScript?“
 // Якщо користувач вводить «ECMAScript», то показати: «Правильно!», інакше – відобразити: «Не знаєте? ECMAScript!
-
+let oficial_Name = prompt('JavaScript');
+if     (oficial_Name === "ECMAScript")
+{
+console.log('Правильно');
+}
+else(
+    console.log('Не знаєте? ECMAScript!')
+)
