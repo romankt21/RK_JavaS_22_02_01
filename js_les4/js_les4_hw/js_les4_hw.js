@@ -82,12 +82,12 @@
 //      all(array);
 
 // 8.- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
-let array = [{id: 1, name: 'Stepan', age: 35}, {id: 2, name: 'Vasyl', age: 40}, {id: 3, name: 'Stepan', age: 35}];
-function nearray (array) {
-   for (let arrayElement of array)
-    document.write(`<div>${arrayElement.id}.${arrayElement.name} - ${arrayElement.age} </div>`);
-}
-nearray(array);
+// let array = [{id: 1, name: 'Stepan', age: 35}, {id: 2, name: 'Vasyl', age: 40}, {id: 3, name: 'Stepan', age: 35}];
+// function nearray (array) {
+//    for (let arrayElement of array)
+//     document.write(`<div>${arrayElement.id}.${arrayElement.name} - ${arrayElement.age} </div>`);
+// }
+// nearray(array);
 
 
 
