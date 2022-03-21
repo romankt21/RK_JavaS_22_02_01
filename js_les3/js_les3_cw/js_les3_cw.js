@@ -60,9 +60,9 @@
 
 
 //8. вивести масив в зворотньому порядку.
-//  for (let i = array.length; i >= 0; i--){
-//  console.log(array[i]);
-// }
+//   for (let i = array.length; i >= 0; i--){
+//   console.log(array[i]);
+//  }
 
 
 

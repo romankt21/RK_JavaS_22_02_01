@@ -60,24 +60,52 @@
 // 5 За допомогою switch case - реалізувати гру - вікторину, де ми вводимо число від 1 до 5. І взалежності від введеного
 //     числа нам дається приз. (Авто, Мото, Телефон, і т.д ) і якщо число не підходить тоді  вивести Повідомлення - що число не вірне ... .
 
-let switch_case = +prompt( "прошу ввести число");
-if (switch_case === 1) {
-    console.log("Ви виграли телефон")
+// let poleChudes = +prompt("Введите число от 1 до 5");
+// switch(poleChudes)
+// {
+//     case 1: // // Коли poleChudes = 1 і т.д
+//         alert("Вітаємо! Ви виграли автомобіль!!!");
+//         break; // // Обовязково закінчуємо словом break щоб все правильно відпрацбвало і не пішло далі
+
+let pryz = +prompt( "прошу ввести число від 1 до 5");
+switch (pryz) {
+    case 1:
+        alert("Ви виграли телефон");
+        break;
+    case 2:
+        alert("Ви виграли телевізор");
+        break;
+    case 3:
+        alert("Ви виграли телефон");
+        break;
+    case 4:
+        alert("Ви виграли сумку");
+        break;
+    case 5:
+        alert("Ви виграли банани");
+        break;
+    default:
+        alert("Число не вірне, Ви нічого не виграли");
 }
-else if (switch_case === 2) {
-    console.log("Ви виграли телевізор")
-}
-else if (switch_case === 3) {
-    console.log("Ви виграли телефон")
-}
-else if (switch_case === 4) {
-    console.log("Ви виграли сумку")
-}
-else if (switch_case === 5) {
-    console.log("Ви виграли банани")
-}
-else {
-    console.log("Число не вірне, Ви нічого не виграли")
-}
+
+
+// if (switch_case === 1) {
+//     console.log("Ви виграли телефон")
+// }
+// else if (switch_case === 2) {
+//     console.log("Ви виграли телевізор")
+// }
+// else if (switch_case === 3) {
+//     console.log("Ви виграли телефон")
+// }
+// else if (switch_case === 4) {
+//     console.log("Ви виграли сумку")
+// }
+// else if (switch_case === 5) {
+//     console.log("Ви виграли банани")
+// }
+// else {
+//     console.log("Число не вірне, Ви нічого не виграли")
+// }
 
 
