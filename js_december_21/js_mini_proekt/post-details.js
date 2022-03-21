@@ -6,11 +6,11 @@ let postContainer = document.getElementsByClassName('post') [0];
 postContainer.innerText = JSON.stringify(post);
 
 let commentsContainer = document.getElementsByClassName('comments') [0];
-fetch(`https://jsonplaceholder.typicode.com/${post.id}/comments`)
+fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
 
     .then(value => value.json())
     .then(value => {
-        console.log(value)
+        console.log(value);
         for (const comentItem of value) {
             let commentContainer = document.createElement('li');
             commentContainer.innerText = comentItem.body;

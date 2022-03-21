@@ -50,13 +50,13 @@
 
 
  // function cul(arg) {
-//document.write(`<ul>`)
+// document.write(`<ul>`)
 //     document.write(`<li>${arg}</li>`)
- //     document.write(`<li>${arg}</li>`)
- //      document.write(`<li>${arg}</li>`)
+//      document.write(`<li>${arg}</li>`)
+//       document.write(`<li>${arg}</li>`)
 //       document.write(`</ul>`)
 //  }
- //  cul('Text');
+//   cul('Text');
 
 
 // 6.- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)

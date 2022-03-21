@@ -13,18 +13,17 @@
 // threenumbers( 4, 5, 3)
 
 //2. створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
-// function maxnumbers (d, e, f) {
-//     if (d > e && d > f) {
-//         document.write(d);
-//     }
-//     else if (e > d && e > f) {
-//         document.write(e);
-//     }
-//     else if (f > d && f > e) {
-//         document.write(f);
-//     }
-// }
-//maxnumbers( 10, 20, 3)
+function maxnumbers (d, e, f) {
+    if (d > e && d > f) {
+        document.write(d);
+    } else if (e > d && e > f) {
+        document.write(e);
+    } else if (f > d && f > e) {
+        document.write(f);
+    }
+}
+       maxnumbers(10, 20, 3)
+
 
 //3.- створити функцію яка повертає найбільше число з масиву
 //   let arraynumbers = [20, 50, 135, 2020 ];
@@ -119,12 +118,12 @@
 
 
 //10.  Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
-function reverse (number) {
-    let number = [];
-    for (let i = 1; i < length; i++) {
-
-    }
-}
+// +function reverse (number) {
+//     let number = [];
+//     for (let i = 1; i < length; i++) {
+//
+//     }
+// }
 
 
 
