@@ -13,6 +13,13 @@
         }
         .comments {
             background: gainsboro;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .comments >li {
+            width: 100px;
+            background: blueviolet;
+            margin: 10px;
         }
 
     </style>
@@ -20,7 +27,7 @@
 <body>
 <h1>post details</h1>
 <div class="post"></div>
-<ul class="comments"></ul>
+<ol class="comments"></ol>
 
 <script src="post-details.js">
 
